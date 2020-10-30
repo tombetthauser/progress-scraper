@@ -1,4 +1,4 @@
-<img src="https://c8.alamy.com/comp/X8WR98/woman-scraping-toast-X8WR98.jpg" style="width:125px">
+<img src="https://c8.alamy.com/comp/X8WR98/woman-scraping-toast-X8WR98.jpg" style="max-width:125px">
 
 # Welcome to Progress Scraper!
 

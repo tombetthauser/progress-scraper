@@ -1,6 +1,6 @@
 // --------------------------------------------
 
-// Welcome to Progress Scraper sub-beta!
+// Welcome to Progress Scraper!
 
 // This consolidates the student reports from the day into a readable summary in the browser console.
 // It's is currently a duct-tapepd mess, but I tried to organize a bit!

@@ -1,5 +1,3 @@
-<img src="https://c8.alamy.com/comp/X8WR98/woman-scraping-toast-X8WR98.jpg" style="max-width:125px">
-
 # Welcome to Progress Scraper!
 
 - This consolidates the student reports from the day into a readable summary in the browser console.

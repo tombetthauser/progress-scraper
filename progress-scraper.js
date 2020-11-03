@@ -10,7 +10,7 @@
 
 // --------------------------------------------
 
-
+let podNames = []; // Not yet in use...
 
 // Grab all student report paragraph nodes.
 let pNodes = Array.from(document.querySelectorAll('p'));
@@ -69,6 +69,50 @@ sortedWordCloud = sortedWordCloud.reverse();
 
 // --------------------------------------------
 
+// Section for filtering out just names on the input pod names list.
+// In progress! Not yet working...
+
+// let allNames = {}; // key = firstName; val = [Student1LastName, Student2LastName]
+// let podFirsts = podNames.map(name => name.split(" ")[0].toLowerCase());
+// let podLasts = podNames.map(name => name.split(" ")[name.split(" ").length - 1].toLowerCase());
+
+// Populate allNames obj
+// pNodes.forEach(ele => {
+//   let parent = ele.parentElement.parentElement.parentElement.parentElement.parentElement;
+//   let name = parent.textContent.split('\n')[11].trim();
+//   let split = name.split(" ");
+//   let first = split[0];
+//   let last = split[split.length - 1];
+
+//   if (allNames[first.toLowerCase()]) {
+//     allNames[first.toLowerCase()].push(last.toLowerCase());
+//   } else {
+//     allNames[first.toLowerCase()] = [last.toLowerCase()];
+//   }
+
+  // console.log(first.toLowerCase());
+
+  // let isNameInPod = false;
+  // for (let i = 0; i < podFirsts.length; i++) {
+  //   let currFirst = podFirsts[i];
+  //   let currLast = podLasts[i];
+  //   // console.log(first, last);
+  //   // console.log(first.toLowerCase() === currFirst.toLowerCase())
+  //   if (first.toLowerCase() === currFirst.toLowerCase()) {
+  //     if (last.toLowerCase() === currLast.toLowerCase()) {
+  //       isNameInPod = true;
+  //       // console.log(first, last);
+  //     }
+  //   }
+  // }
+// })
+
+// console.log(Object.keys(allNames).length);
+
+
+
+// --------------------------------------------
+
 
 
 // Sort all paragraph nodes by length in the pNodes array.
@@ -83,6 +127,7 @@ filteredNodes.forEach(ele => {
   let name = parent.textContent.split('\n')[11].trim();
   longResponses[name] = ele.innerHTML;
 });
+
 
 // --------------------------------------------
 

@@ -1,9 +1,12 @@
 # Progress Scraper 🤖
 
 - Made by Justin Nguyen! (posted here for convenience)
-- This consolidates the student reports from the day into a readable summary in the browser console.
+- Paste the following code into your browser console and run it while on the reports page for a given day on Progress Tracker
 - It automatically puts comma separated values on your clipboard that you can paste into your cohort tracking sheet
 - Just make sure all your student names match those on progress tracker and are in alphabetical order
+- When you paste these into your Cohort Tracking sheet select the first student's 'self' field
+– Select the paste options that appears and choose 'Split Text to Columns'
+- Choose either the 'comma' separator or let it detect automatically
 
 ```javascript
 const allReports = [];
